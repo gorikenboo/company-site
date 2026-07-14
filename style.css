@@ -982,3 +982,20 @@ a {
     white-space: normal;
   }
 }
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.footer-right p {
+  margin: 0;
+}
+
+.footer-image {
+  width: 100px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}

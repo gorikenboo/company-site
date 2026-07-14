@@ -999,3 +999,27 @@ a {
   display: block;
   object-fit: contain;
 }
+.header-logo {
+  width: 250px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.footer-logo {
+  width: 200px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+@media (max-width: 680px) {
+  .header-logo {
+    width: 200px;
+    height: auto;
+  }
+  .footer-logo {
+    width: 180px;
+    height: auto;
+  }
+}
